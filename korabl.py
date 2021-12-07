@@ -8,7 +8,7 @@ from asyncio import sleep
 class KorablMod(loader.Module):
 	"""Мем (Капитан Залупа С Корабля Сбежал)"""
 	strings = {'name': 'Korabl'}
-		@loader.owner
+	@loader.owner
 		async def korablcmd(self, message_id):
 			"""start"""
 			await message_id.edit("плыли мы по морю")
