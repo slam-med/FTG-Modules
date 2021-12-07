@@ -14,7 +14,7 @@ class HentaiMod(loader.Module):
 	strings = {'name': 'Hentai Module'}
 	@loader.owner
 	async def nhcmd(self,message_id):
-	"""Начать поиск"""
+		"""Начать поиск"""
 		await message_id.edit("Поиск хентыча")
 		await sleep(0,5)
 		for _ in range(3):
