@@ -1,11 +1,16 @@
+#created users seesonrise
+
 from .. import loader
 from asyncio import sleep
 import os
+
 @loader.tds
 class MotchaMod(loader.Module):
+	"""Рукоблуд, ссанина"""
 	strings = {"name": "Рукоблуд"}
 	@loader.owner
 	async def рукоблудcmd(self, message):
+		"""Начнем"""
 		await message.edit("Да ты...................")
 		await sleep(0.3)
 		for _ in range(10):
