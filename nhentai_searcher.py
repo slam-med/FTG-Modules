@@ -16,13 +16,13 @@ class HentaiMod(loader.Module):
 	async def nhcmd(self,message_id):
 		"""Начать поиск"""
 		await message_id.edit("Поиск хентыча")
-		await sleep(0,5)
+		await asyncio.sleep(1)
 		for _ in range(3):
 			for search in ['Поиск.','Поиск..','Поиск...']:
 				await message_id.edit(search)
-				await sleep(0,5)
-		await sleep(1)
+				await asyncio.sleep(1) 
+		await asyncio.sleep(1) 
 		await message_id.edit("Ваш хентай")
-		await sleep(1)
-		x = random.randint(1,999999)
+		await asyncio.sleep(1)
+		x = random.randint(1,383041)
 		await message_id.edit("nhentai.net/g/"+ str(x))
