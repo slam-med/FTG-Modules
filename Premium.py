@@ -11,5 +11,5 @@ class PremMod(loader.Module):
     """ Проверка лицензии"""
     if message == gopabobra:
       await utils.answer(message," Лицензия робит")
-    else
+    else:
       await utils.answer(message, "Ярик всё хуйня")
