@@ -5,7 +5,7 @@ class LopataMod(loader.Module):
 	"""На лопату в лицо"""
 	strings = {'name':'Обычная лопата'}
 	async def lopatacmd (self,message):
-		"""Лопату в лицо"""
+		"""Лопату заказывали?"""
 		await utils.answer(message,"Лопату заказывали")
 		await sleep(1)
 		await utils.answer(message,"Нет?")
@@ -14,6 +14,7 @@ class LopataMod(loader.Module):
 		await sleep(1)
 		await utils.answer(message,"Может вы всё таки заказывали?")
 	async def lopata_memecmd (self,message):
+		"""Мемная лопата"""
 		for _ in range(1):
 			for lopata in [
 		'-Где лопата?',
