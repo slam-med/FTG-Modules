@@ -4,9 +4,8 @@ created & modded by users @wich & seesonrise
 
 
 
-# Hello! <img alt="GitHub followers" src="https://img.shields.io/github/followers/HitaloSama?style=social" /> <a href="https://twitter.com/HitaloSama"><img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/HitaloKun?style=social"></a>
-
-![Visitors](https://visitor-badge.laobi.icu/badge?page_id=HitaloSama.HitaloSama)
+# Hello! <img alt="GitHub followers" src="https://img.shields.io/github/followers/slam-med?style=social" /> 
+![Visitors](https://visitor-badge.laobi.icu/badge?page_id=slam-med.slam-med)
 
 ## Profile overview
 
