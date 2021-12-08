@@ -21,7 +21,7 @@ class HentaiMod(loader.Module):
 			for search in ['Поиск.','Поиск..','Поиск...']:
 				await utils.answer(message,search)
 				await sleep(1) 
-		await asyncio.sleep(1) 
+		await sleep(1) 
 		await utils.answer(message,"Ваш хентай")
 		await sleep(1)
 		x = random.randint(1,383041) 
