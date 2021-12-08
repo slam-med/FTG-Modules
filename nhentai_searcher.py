@@ -13,16 +13,16 @@ class HentaiMod(loader.Module):
 	"""Дает рандомную ссылку на nhetai"""
 	strings = {'name': 'Hentai Module'}
 	@loader.owner
-	async def nhcmd(self,message_id):
+	async def nhcmd(self,message):
 		"""Начать поиск"""
-		await message_id.edit("Поиск хентыча")
+		await utils.answer(message,"Поиск хентыча")
 		await asyncio.sleep(1)
 		for _ in range(3):
 			for search in ['Поиск.','Поиск..','Поиск...']:
-				await message_id.edit(search)
+				await utils.answer(message,search)
 				await asyncio.sleep(1) 
 		await asyncio.sleep(1) 
-		await message_id.edit("Ваш хентай")
+		await utils.answer(message,"Ваш хентай")
 		await asyncio.sleep(1)
-		x = random.randint(1,383041)
-		await message_id.edit("nhentai.net/g/"+ str(x))
+		x = random.randint(1,383041) URL ="nhentai.net/g/"+ str(x)
+		await utils.answer(message,URL)
