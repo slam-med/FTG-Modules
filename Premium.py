@@ -5,11 +5,11 @@ class PremMod(loader.Module):
   """ Тест роботы проверки лицензии"""
   
   strings ={'name':'Test Premium'}
-  
+  a ="gopabobra"
   @loader.owner
   async def premcmd (self,message):
     """ Проверка лицензии"""
-    if message == "gopabobra":
+    if message == a:
       await utils.answer(message," Лицензия робит")
     else:
       await utils.answer(message, "Ярик всё хуйня")
