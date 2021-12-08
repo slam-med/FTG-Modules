@@ -2,9 +2,8 @@ from .. import loader, utils
 
 @loader.tds
 class PremMod(loader.Module):
-  
+  """License Checker"""
   strings ={'name':'Test Premium'}
-  
   @loader.owner
   async def premcmd (self,message):
     """ Проверка лицензии"""
