@@ -9,7 +9,7 @@ created & modded by users @wich & seesonrise
 
 ## Profile overview
 
-<img align="center" alt="stats" src="https://github-readme-stats.vercel.app/api?username=witch1&show_icons=true&hide_border=true&count_private=true&theme=dark&custom_title=witch1's Statistics">
+<img align="center" alt="stats" src="https://github-readme-stats.vercel.app/api?username=wich1&show_icons=true&hide_border=true&count_private=true&theme=dark&custom_title=wich1's Statistics">
 <img align="center" alt="stats" src="https://github-readme-stats.vercel.app/api?username=seesonrise&show_icons=true&hide_border=true&count_private=true&theme=dark&custom_title=seesonrise's Statistics">
 ## Additional info
 
