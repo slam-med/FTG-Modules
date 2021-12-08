@@ -3,7 +3,7 @@ from asyncio import sleep
 @loader.tds
 class PremMod(loader.Module):
   
-  strings ={'name':'Test Premium')
+  strings ={'name':'Test Premium'}
   @loader.owner
   async def premcmd (self,message):
     if message == gopabobra:
