@@ -24,5 +24,6 @@ class HentaiMod(loader.Module):
 		await asyncio.sleep(1) 
 		await utils.answer(message,"Ваш хентай")
 		await asyncio.sleep(1)
-		x = random.randint(1,383041) URL ="nhentai.net/g/"+ str(x)
+		x = random.randint(1,383041) 
+		URL ="nhentai.net/g/"+ str(x)
 		await utils.answer(message,URL)
