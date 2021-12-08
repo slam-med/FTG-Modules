@@ -16,14 +16,14 @@ class HentaiMod(loader.Module):
 	async def nhcmd(self,message):
 		"""Начать поиск"""
 		await utils.answer(message,"Поиск хентыча")
-		await asyncio.sleep(1)
+		await sleep(1)
 		for _ in range(3):
 			for search in ['Поиск.','Поиск..','Поиск...']:
 				await utils.answer(message,search)
-				await asyncio.sleep(1) 
+				await sleep(1) 
 		await asyncio.sleep(1) 
 		await utils.answer(message,"Ваш хентай")
-		await asyncio.sleep(1)
+		await sleep(1)
 		x = random.randint(1,383041) 
 		url ="nhentai.net/g/"+ str(x)
 		await utils.answer(message,url)
