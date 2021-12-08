@@ -1,9 +1,12 @@
-import .. from loader, utils
+from .. import loader, utils
 from asyncio import sleep
 @loader.tds
 class PremMod(loader.Module):
+  
   strings ={'name':'Test Premium')
   @loader.owner
   async def premcmd (self,message):
-    if message == "e1cf2286":
-      await utils.answer(message,"Вроде робит")
+    if message == gopabobra:
+      await utils.answer(message," Лицензия робит")
+    elif
+      await utils.answer(message, "Ярик всё хуйня")
