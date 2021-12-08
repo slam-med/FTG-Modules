@@ -2,6 +2,7 @@ from .. import loader, utils
 
 @loader.tds
 class PremMod(loader.Module):
+  """ Тест роботы проверки лицензии"""
   
   strings ={'name':'Test Premium'}
   
