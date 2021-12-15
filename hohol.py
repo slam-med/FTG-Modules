@@ -1,7 +1,7 @@
 #created by @wich1
 #Hohol - seesonrise
 from .. import loader, utils
-import asyncio
+from asyncio import sleep
 
 hohol_url = "https://c.tenor.com/BS0X4mOtkRIAAAAd/%D1%85%D0%BE%D1%85%D0%BE%D0%BB-happy.gif"
 
@@ -12,14 +12,13 @@ class HoholMod(loader.Module):
     strings = {"name": "Hohol"}
 
     async def hoholcmd(self, message):
-        """Usage: .hohol (user)"""
-        target = await self.get_target(message)
+        """Использование: .hohol (user)"""
         if not target:
             return await message.edit("<b>Please specify who to hohol.</b>")
 
           await utils.answer(message, "Sending Hohol...")
           sleep(1)
-        await message.client.send_video(target, hohol_url)
+        await message.client.send_video(message, hohol_url)
         await utils.answer(message, "Sent Hohol successfully!")
 
     @staticmethod
