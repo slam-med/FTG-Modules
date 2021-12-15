@@ -2,7 +2,7 @@
 #Hohol - seesonrise
 from .. import loader, utils
 
-big_rat_url = "https://c.tenor.com/BS0X4mOtkRIAAAAd/%D1%85%D0%BE%D1%85%D0%BE%D0%BB-happy.gif"
+hohol_url = "https://c.tenor.com/BS0X4mOtkRIAAAAd/%D1%85%D0%BE%D1%85%D0%BE%D0%BB-happy.gif"
 
 
 @loader.tds
@@ -17,7 +17,7 @@ class HoholMod(loader.Module):
             return await message.edit("<b>Please specify who to hohol.</b>")
 
         msg = await utils.answer(message, "<b>Sending Hohol...</b>")
-        await message.client.send_file(target, big_rat_url)
+        await message.client.send_vide(target, hohol_url)
         await utils.answer(msg, "<b>Sent Hohol successfully!</b>")
 
     @staticmethod
