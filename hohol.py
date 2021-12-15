@@ -8,7 +8,7 @@ big_rat_url = "https://c.tenor.com/BS0X4mOtkRIAAAAd/%D1%85%D0%BE%D1%85%D0%BE%D0%
 @loader.tds
 class HoholMod(loader.Module):
     """Hohol"""
-    strings = {"name": "Big rat"}
+    strings = {"name": "Hohol"}
 
     async def hoholcmd(self, message):
         """Usage: .hohol (user)"""
