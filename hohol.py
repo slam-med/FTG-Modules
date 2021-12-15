@@ -16,9 +16,9 @@ class HoholMod(loader.Module):
         if not target:
             return await message.edit("<b>Please specify who to hohol.</b>")
 
-        msg = await utils.answer(message, "<b>Sending Hohol...</b>")
+          await utils.answer(message, "<b>Sending Hohol...</b>")
         await message.client.send_video(target, hohol_url)
-        await utils.answer(msg, "<b>Sent Hohol successfully!</b>")
+        await utils.answer(message, "<b>Sent Hohol successfully!</b>")
 
     @staticmethod
     async def get_target(message):
