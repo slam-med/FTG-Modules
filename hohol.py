@@ -1,6 +1,8 @@
+#created by @wich1
+#Hohol - seesonrise
 from .. import loader, utils
 
-big_rat_url = "https://drive.google.com/file/d/1U0XYTFo5V6n4hzRU4owTfzsV-Wt5pcYQ/view?usp=sharing"
+big_rat_url = "https://c.tenor.com/BS0X4mOtkRIAAAAd/%D1%85%D0%BE%D1%85%D0%BE%D0%BB-happy.gif"
 
 
 @loader.tds
@@ -9,7 +11,7 @@ class HoholMod(loader.Module):
     strings = {"name": "Big rat"}
 
     async def hoholcmd(self, message):
-        """Usage: .rat (user)"""
+        """Usage: .hohol (user)"""
         target = await self.get_target(message)
         if not target:
             return await message.edit("<b>Please specify who to hohol.</b>")
