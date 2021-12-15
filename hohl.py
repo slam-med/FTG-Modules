@@ -7,6 +7,6 @@ class HoholMod(loader.Module):
     for _ in range(2):
       for sending in ['Отправка.','Отправка..','Отправка...']:
         await utils.answer(message,sending)
-        sleep(1)
+        await sleep(1)
       await utils.answer(message,"Ваш хохольчик")
       await message.client.send_video(message,gif_url)
