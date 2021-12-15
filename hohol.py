@@ -13,27 +13,8 @@ class HoholMod(loader.Module):
 
     async def hoholcmd(self, message):
         """Использование: .hohol (user)"""
-        if not target:
-            return await message.edit("<b>Please specify who to hohol.</b>")
-
+        
           await utils.answer(message, "Sending Hohol...")
           sleep(1)
         await message.client.send_video(message, hohol_url)
         await utils.answer(message, "Sent Hohol successfully!")
-
-    @staticmethod
-    async def get_target(message):
-        if message.chat_id > 0:
-            return await message.client.get_entity(message.chat_id)
-        args = utils.get_args_raw(message)
-        if args:
-            args = args.split()[0]
-        reply = await message.get_reply_message()
-
-        if not args and not reply:
-            return None
-        if reply and reply.from_id:
-            return reply.from_id
-
-        user = args if not args.isnumeric() else int(args)
-        return await message.client.get_entity(user)
