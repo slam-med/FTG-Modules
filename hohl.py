@@ -9,4 +9,4 @@ class HoholMod(loader.Module):
         await utils.answer(message,sending)
         await sleep(1)
       await utils.answer(message,"Ваш хохольчик")
-      await message.client.send_video(message,gif_url)
+      await message.client.sendVideo(message,gif_url)
