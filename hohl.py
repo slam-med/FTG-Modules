@@ -4,7 +4,7 @@ gif_url ="https://c.tenor.com/BS0X4mOtkRIAAAAd/%D1%85%D0%BE%D1%85%D0%BE%D0%BB-ha
 @loader.tds
 class HoholMod(loader.Module):
    """Высылает Хохольчика"""
-    strings = {'name': 'Домашний хохольчик :)'}
+    strings = {'name': 'Хохольчик'}
   @loader.owner
   async def hohlcmd(self, message):
     """Хохольчик Радуеться"""
