@@ -9,7 +9,7 @@ class WhatgayMod(loader.Module):
 	strings = {'name': 'Whatgay'}
 	@loader.owner
 	async def whatgcmd(self, message_id):
-	"""старт"""
+	"""Запуск бесмысленого диалога"""
 		await utils.answer(message, "Приветствую")
 		await asyncio.sleep(4)
 		await utils.answer(message, "И напишу тебе сейчас хуйню.")
