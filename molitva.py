@@ -9,7 +9,6 @@ class MolitvaMod(loader.Module):
 	strings = {'name': 'Molitva'}
 	@loader.owner
 	async def molitvacmd(self, message_id):
-	"""старт"""
     await utils.answer(message, ' О, Великий Аккумулятор,')
     await asyncio.sleep(7)
     await utils.answer(message, ' отец анода и катода.')
